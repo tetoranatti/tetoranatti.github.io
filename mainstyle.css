@@ -1,15 +1,33 @@
 @charset "utf-8";
+.HeadContainer {
+	width: 965px;
+	color: #9B9B9B;
+	font-size: 50px;
+	background-color: #171D21;
+	position: relative;
+	margin: 0;
+	padding: 10;
+	z-index: 100;
+}
 .BackGround {
 	background: #1A1A1A;
 	width: 100%;
 	height: 100%;
-	color: #b5b5b5;
-}
-.HeadContainer {
-	background: #1A1A1A;
-	width: 100%;
-	color: #B5B5B5;
-	font-size: 50px;
+	position: fixed;
+	left: 0;
+	top: 0;
 }
 .BottomContainer {
+	background: #1A1A1A;
+	width: 965;
+	z-index: 2;
+	position: relative;
+	color: #E3E3E3;
+}
+.Logo {
+	float: left;
+
+}
+.Title {
+	float: left;
 }
