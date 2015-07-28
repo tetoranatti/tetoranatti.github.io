@@ -1,9 +1,7 @@
 @charset "utf-8";
 .HeadContainer {
 	width: 100%;
-	color: #9B9B9B;
-	font-size: 50px;
-	background-color: #171D21;
+	background-color: #227FBC;
 	position: relative;
 	margin: 0;
 	padding-top: 10px;
@@ -14,15 +12,14 @@
 	float: left;
 }
 .BackGround {
-	background: #1A1A1A;
 	width: 100%;
 	height: 100%;
 	position: fixed;
 	left: 0;
 	top: 0;
+	background-color: #2D2D2D;
 }
 .BottomContainer {
-	background: #1A1A1A;
 	width: 100%;
 	z-index: 2;
 	position: relative;
@@ -35,9 +32,24 @@
 
 }
 .Title {
-	padding-top: 40px;
+	padding-top: 0px;
 	padding-right: 10px;
 	padding-left: 10px;
-	padding-bottom: 40px;
+	padding-bottom: 0px;
 	float: left;
+	color: #DAF3FF;
+	font-family: courier-prime;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 72px;
+}
+.SubTitle {
+	font-family: courier-prime;
+	font-style: normal;
+	font-weight: 400;
+	color: #DFF8FF;
+	position: absolute;
+	top: 80px;
+	left: 148px;
+	font-size: 35px;
 }
